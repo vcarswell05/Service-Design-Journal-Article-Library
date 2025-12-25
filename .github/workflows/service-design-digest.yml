@@ -1,3 +1,37 @@
+name: Service Design Digest
+
+on:
+  schedule:
+    - cron: "15 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fetch + digest
+        env:
+          MAX_ITEMS_PER_FEED: "12"
+          DIGEST_TITLE: "Service Design Weekly Digest"
+        run: python scripts/fetch_articles.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -8,8 +42,8 @@
 
           git commit -m "Update service design digest"
 
-          # Pull latest main and rebase this commit on top, then push
           git pull --rebase origin main
           git push origin HEAD:main
+
 
 
