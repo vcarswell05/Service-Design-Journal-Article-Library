@@ -1,1 +1,2 @@
+# Optional: put specific URLs you want included even if not in RSS.
 
