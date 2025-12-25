@@ -1,5 +1,165 @@
 {
-  "seen_urls": {},
-  "last_run_utc": null
+  "last_run_utc": "2025-12-25T22:50:23.739109+00:00",
+  "seen_urls": {
+    "https://www.forrester.com/blogs/aeo-changes-what-content-must-do-help-buyers-decide/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739044+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "AEO Changes What Content Must Do: Help Buyers Decide"
+    },
+    "https://www.forrester.com/blogs/five-practices-that-make-the-cmo-cpo-partnership-work/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739050+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Five Practices That Make The CMO-CPO Partnership Work"
+    },
+    "https://www.forrester.com/blogs/ifs-unleashed-x-2025-opportunities-and-risks-in-industrial-ai/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739057+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "IFS\u2019s Industrial X Unleashed 2025: Opportunities And Risks In Industrial AI"
+    },
+    "https://www.forrester.com/blogs/podcasts-go-from-niche-audio-format-to-media-powerhouse/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739093+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Podcasts Go From Niche Audio Format To Media Powerhouse"
+    },
+    "https://www.forrester.com/blogs/predictions-2026-2/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739107+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Pr\u00e9dictions 2026"
+    },
+    "https://www.forrester.com/blogs/seven-roles-one-goal-how-to-organize-for-answer-engine-optimization/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739064+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Seven Roles, One Goal: How To Organize For Answer Engine Optimization"
+    },
+    "https://www.forrester.com/blogs/tanium-converge-2025-strategy-shifts-beyond-endpoint-management-to-autonomous-it/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739100+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Tanium Converge 2025: Strategy Shifts Beyond Endpoint Management To Autonomous IT"
+    },
+    "https://www.forrester.com/blogs/the-tale-of-turmoil-ends-us-tiktok-set-to-divest-in-2026/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739079+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "The Tale Of Turmoil Ends: US TikTok Set To Divest In 2026"
+    },
+    "https://www.forrester.com/blogs/three-must-haves-when-buying-digital-analytics-solutions-in-2026/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739086+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Three Must-Haves When Buying Digital Analytics Solutions In 2026"
+    },
+    "https://www.forrester.com/blogs/why-b2b-cmos-must-prioritize-product-leader-alignment/": {
+      "first_seen_utc": "2025-12-25T22:50:23.739072+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Why B2B CMOs Must Prioritize Product Leader Alignment"
+    },
+    "https://www.nngroup.com/articles/ai-ad/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738874+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Why AI-Generated Holiday Ads Fail \u2014 And What They Teach Us About Using AI in UX Work"
+    },
+    "https://www.nngroup.com/articles/contextual-menus-guidelines/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738944+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Designing Effective Contextual Menus: 10 Guidelines"
+    },
+    "https://www.nngroup.com/articles/diary-study-entries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738953+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Get the Responses You Want: Designing Diary Study Entries"
+    },
+    "https://www.nngroup.com/articles/explainable-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738903+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Explainable AI in Chat Interfaces"
+    },
+    "https://www.nngroup.com/articles/smart-homes-user-value/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738912+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "What Users Value Most in Smart Homes and How to Design for It"
+    },
+    "https://www.nngroup.com/articles/top-articles-2025/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738895+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Top 10 UX Articles of 2025"
+    },
+    "https://www.nngroup.com/articles/top-videos-2025/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738849+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Top 10 UX Videos of 2025"
+    },
+    "https://www.nngroup.com/articles/ux-research-workshops/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738961+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Workshopping UX Research with Stakeholders"
+    },
+    "https://www.nngroup.com/articles/vague-prototyping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738924+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Prompt to Design Interfaces: Why Vague Prompts Fail and How to Fix Them"
+    },
+    "https://www.nngroup.com/articles/web-ux-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738885+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "Web UX: Study Guide"
+    },
+    "https://www.nngroup.com/training/march-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738934+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "UX Conference March Announced (Feb 25 - Mar 5)"
+    },
+    "https://www.nngroup.com/training/march/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2025-12-25T22:50:23.738831+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "UX Conference March Announced (Mar 16 - Mar 27)"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/achieving-design-collegiality-while-maintaining-psychological-safety.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.739036+00:00",
+      "source": "UXmatters",
+      "title": "Achieving Design Collegiality While Maintaining Psychological Safety"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/conversational-ai-search-engines-implications-for-usability-and-the-user-experience.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.739007+00:00",
+      "source": "UXmatters",
+      "title": "Conversational AI Search Engines: Implications for Usability and the User Experience"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/designing-for-mobile-accessibility-enhancing-the-user-experience-on-small-screens.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.739014+00:00",
+      "source": "UXmatters",
+      "title": "Designing for Mobile Accessibility: Enhancing the User Experience on Small Screens"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/designing-for-the-user-how-form-insights-shape-ux-design-decisions.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.738999+00:00",
+      "source": "UXmatters",
+      "title": "Designing for the User: How Form Insights Shape UX Design Decisions"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/empowering-the-user-experience-through-microinteractions-7-best-practices.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.738985+00:00",
+      "source": "UXmatters",
+      "title": "Empowering the User Experience Through Microinteractions: 7 Best Practices"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/evolving-the-user-experience-to-curb-digital-addiction.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.738970+00:00",
+      "source": "UXmatters",
+      "title": "Evolving the User Experience to Curb Digital Addiction"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/fostering-inclusive-design-in-industrial-automation-part-2.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.739022+00:00",
+      "source": "UXmatters",
+      "title": "Fostering Inclusive Design in Industrial Automation, Part 2"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/harnessing-the-power-of-user-generated-content-in-ecommerce.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.739029+00:00",
+      "source": "UXmatters",
+      "title": "Harnessing the Power of User-Generated Content in eCommerce"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/how-web-site-design-and-social-media-work-together.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.738992+00:00",
+      "source": "UXmatters",
+      "title": "How Web-Site Design and Social Media Work Together"
+    },
+    "https://www.uxmatters.com/mt/archives/2024/03/the-power-of-textual-content-in-ux-design.php": {
+      "first_seen_utc": "2025-12-25T22:50:23.738978+00:00",
+      "source": "UXmatters",
+      "title": "The Power of Textual Content in UX Design"
+    }
+  }
 }
-
