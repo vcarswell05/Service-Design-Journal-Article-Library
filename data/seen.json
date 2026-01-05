@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2025-12-29T14:36:54.216174+00:00",
+  "last_run_utc": "2026-01-05T14:41:00.286823+00:00",
   "seen_urls": {
     "https://www.forrester.com/blogs/aeo-changes-what-content-must-do-help-buyers-decide/": {
       "first_seen_utc": "2025-12-25T22:50:23.739044+00:00",
@@ -10,6 +10,11 @@
       "first_seen_utc": "2025-12-25T22:50:23.739050+00:00",
       "source": "Featured Blogs - Forrester",
       "title": "Five Practices That Make The CMO-CPO Partnership Work"
+    },
+    "https://www.forrester.com/blogs/forresters-global-net-promoter-score-rankings-2025/": {
+      "first_seen_utc": "2026-01-05T14:41:00.286772+00:00",
+      "source": "Featured Blogs - Forrester",
+      "title": "Forrester\u2019s Global Net Promoter Score Rankings, 2025"
     },
     "https://www.forrester.com/blogs/ifs-unleashed-x-2025-opportunities-and-risks-in-industrial-ai/": {
       "first_seen_utc": "2025-12-25T22:50:23.739057+00:00",
@@ -90,6 +95,11 @@
       "first_seen_utc": "2025-12-25T22:50:23.738849+00:00",
       "source": "NN/g latest articles and announcements",
       "title": "Top 10 UX Videos of 2025"
+    },
+    "https://www.nngroup.com/articles/ux-quiz/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
+      "first_seen_utc": "2026-01-05T14:41:00.286624+00:00",
+      "source": "NN/g latest articles and announcements",
+      "title": "UX Quiz: 2025 Year in Review"
     },
     "https://www.nngroup.com/articles/ux-research-workshops/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication": {
       "first_seen_utc": "2025-12-25T22:50:23.738961+00:00",
