@@ -258,11 +258,13 @@ def main():
     seen = load_seen()
     before_seen = len(seen.get("seen_urls", {}))
 
-try:
-    rss_items = fetch_from_rss(rss_urls)
-except Exception as e:
-    print(f"RSS fetch failed unexpectedly; continuing with empty RSS set: {repr(e)}")
-    rss_items = []
+    # ✅ RSS fetch is now safely guarded INSIDE main()
+    try:
+        rss_items = fetch_from_rss(rss_urls)
+    except Exception as e:
+        print(f"RSS fetch failed unexpectedly; continuing with empty RSS set: {repr(e)}")
+        rss_items = []
+
     seed_items = fetch_from_seed_urls(seed_urls)
     items = rss_items + seed_items
 
@@ -279,9 +281,5 @@ except Exception as e:
     save_seen(seen)
     write_digest(new_items)
     print("Digest written successfully.")
-
-
-if __name__ == "__main__":
-    main()
 
 
