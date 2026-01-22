@@ -124,9 +124,22 @@ def fetch_from_rss(rss_urls):
                 print(f"Skipping RSS ({feed_url}) after repeated error: {e}")
                 break  # skip this feed, move to next
 
-            except Exception as e:
-                print(f"Skipping RSS ({feed_url}) due to unexpected error: {repr(e)}")
-                break
+            import ssl
+
+...
+
+except (
+    http.client.RemoteDisconnected,
+    http.client.IncompleteRead,
+    ConnectionResetError,
+    TimeoutError,
+    socket.timeout,
+    ssl.SSLError,
+    URLError,
+    OSError,
+    RuntimeError,
+) as e:
+
 
     return items
 
@@ -245,7 +258,11 @@ def main():
     seen = load_seen()
     before_seen = len(seen.get("seen_urls", {}))
 
+try:
     rss_items = fetch_from_rss(rss_urls)
+except Exception as e:
+    print(f"RSS fetch failed unexpectedly; continuing with empty RSS set: {repr(e)}")
+    rss_items = []
     seed_items = fetch_from_seed_urls(seed_urls)
     items = rss_items + seed_items
 
