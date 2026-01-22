@@ -1,0 +1,108 @@
+# 📚 Service Design, Systems & Healthcare — Notion Master Sources
+
+This file mirrors a **Notion database structure** for tracking high-signal research sources across service design, systems thinking, healthcare, behavioral science, and socio-technical systems.
+
+It is designed to support:
+- Automated research briefings (RSS)
+- Credible citations for decks and strategy docs
+- Cross-disciplinary systems thinking
+- Ongoing professional learning in complex, regulated environments
+
+---
+
+## 🧭 Recommended Notion Properties
+
+When importing into Notion, use these properties:
+
+- **Name** (Title)
+- **Category** (Select)
+- **Tags** (Multi-select)
+- **Type** (Select: RSS / Reference / Both)
+- **Why it Matters** (Text)
+- **Link** (URL)
+
+---
+
+## 🧠 Service Design & UX Practice
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| This Is Service Design Doing | Service Design | service-design, methods, practice | RSS | Practical service design cases and methods grounded in real organizations | https://www.thisisservicedesigndoing.com/feed |
+| Nielsen Norman Group | UX & CX | ux, usability, research | RSS | Gold-standard UX research and behavioral insight | https://www.nngroup.com/feed/rss/ |
+| Service Design Network | Service Design | service-design, case-studies | RSS | Global service design maturity and practice | https://www.servicedesign.network/feed/ |
+| UX Matters | UX Practice | ux, content, interaction | RSS | Deep, practitioner-level UX analysis | https://www.uxmatters.com/index.xml |
+| Interaction Design Foundation | UX Education | ux, interaction-design | RSS | Foundational UX and interaction design thinking | https://www.interaction-design.org/rss |
+
+---
+
+## 📊 CX, Strategy & Business
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| Forrester Blogs | CX Strategy | cx, maturity, metrics | RSS | Executive-ready CX language and models | https://www.forrester.com/blogs/feed/ |
+| Forrester Customer Experience | CX Research | cx, strategy | Reference | CX frameworks, maturity models, and benchmarks | https://www.forrester.com/customer-experience/ |
+| McKinsey Design Insights | Strategy | design, transformation | Reference | Business validation of design at scale | https://www.mckinsey.com/capabilities/design/our-insights |
+
+---
+
+## 🔁 Systems Thinking & Engineering
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| System Dynamics Society | Systems Thinking | systems, causal-loops | Reference | Root-cause analysis, feedback loops, and complexity | https://systemdynamics.org |
+| MIT OpenCourseWare | Systems & Operations | systems, education | Reference | Free courses on systems, healthcare, and operations | https://ocw.mit.edu |
+| IEEE Software | Engineering | socio-technical, software | Reference | Socio-technical debt and system design | https://www.computer.org/csdl/magazine/so |
+| Systems Engineering Journal | Engineering | systems, governance | Reference | Large-scale system design rigor | https://onlinelibrary.wiley.com/journal/15206858 |
+| INCOSE | Systems Engineering | hsi, systems | Reference | Human-systems integration credibility | https://www.incose.org |
+
+---
+
+## 🧩 Behavioral Science & Decision-Making
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| Behavioural Public Policy | Behavioral Science | behavior, policy | Reference | Behavioral science applied to public systems | https://www.cambridge.org/core/journals/behavioural-public-policy |
+| Behavioral Scientist | Behavioral Science | cognition, behavior | Reference | Accessible summaries of behavioral research | https://behavioralscientist.org |
+
+---
+
+## 🏥 Healthcare Quality, Policy & Innovation
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| BMJ Quality & Safety | Healthcare Quality | patient-safety, quality | Reference | Human-centered design in healthcare improvement | https://qualitysafety.bmj.com |
+| CMS Innovation Center | Health Policy | cms, payment, innovation | Reference | Real-world payer experimentation and policy pilots | https://innovation.cms.gov |
+| NPJ Digital Medicine | Digital Health | ai, digital-health | Reference | AI and digital health system evidence | https://www.nature.com/npjdigitalmed |
+| Journal of Medical Internet Research | Digital Health | ux, engagement | Reference | Evidence for digital care delivery and engagement | https://www.jmir.org |
+
+---
+
+## ⚖️ Ethics, Equity & Power
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| Journal of Medical Ethics | Ethics | ethics, healthcare | Reference | Ethics in healthcare systems and technology | https://jme.bmj.com |
+| Design Justice | Equity | equity, power | Reference | Power-aware, equity-centered design frameworks | https://designjustice.org |
+| Stanford d.school Resources | Design Education | systems, equity | Reference | Systems and equity-centered design tools | https://dschool.stanford.edu/resources |
+
+---
+
+## 📘 Academic Service & Design Research
+
+| Name | Category | Tags | Type | Why it Matters | Link |
+|---|---|---|---|---|---|
+| Journal of Service Research | Service Research | ecosystems, value | Reference | Service ecosystems and institutional change | https://journals.sagepub.com/home/jsr |
+| Journal of Service Management | Service Research | transformation | Reference | Design-led service transformation | https://www.emerald.com/insight/publication/issn/1757-5818 |
+| Health Systems Journal | Health Systems | systems, healthcare | Reference | Systems thinking in healthcare delivery | https://www.tandfonline.com/toc/thss20/current |
+| She Ji | Design Economics | policy, innovation | Reference | Design, economics, and systems impact | https://www.journals.elsevier.com/she-ji-the-journal-of-design-economics-and-innovation |
+| The Design Journal | Design Research | service-design | Reference | Design theory and practice | https://www.tandfonline.com/toc/rfdj20/current |
+| Design Studies | Design Research | cognition, systems | Reference | Foundational design cognition and complexity | https://www.sciencedirect.com/journal/design-studies |
+
+---
+
+## 🔄 Curation Guidelines
+
+- Prioritize **primary, credible sources**
+- Avoid low-signal opinion content
+- Favor sources that connect **experience to systems**
+- Keep the library
