@@ -1,12 +1,16 @@
 import json
 import os
+import time
+import socket
+import http.client
+from urllib.error import URLError
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
 import feedparser
 from dateutil import parser as dateparser
-
+socket.setdefaulttimeout(20)
 # -----------------------------
 # Paths
 # -----------------------------
@@ -88,28 +92,42 @@ def host_label(url: str) -> str:
 # -----------------------------
 # Fetchers
 # -----------------------------
-def fetch_from_rss(rss_urls: list[str]) -> list[dict]:
-    items: list[dict] = []
+def fetch_from_rss(rss_urls):
+    items = []
+
     for feed_url in rss_urls:
-        feed = feedparser.parse(feed_url)
-        feed_title = (feed.feed.get("title") or host_label(feed_url)).strip()
+        print(f"Fetching RSS: {feed_url}")
 
-        for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
-            link = entry.get("link")
-            title = (entry.get("title") or "").strip()
-            if not link or not title:
-                continue
+        # retry up to 2 times total
+        for attempt in range(2):
+            try:
+                feed = feedparser.parse(feed_url)
 
-            published = parse_entry_date(entry)
+                # if the feed returns an HTTP error status, treat it as a failure
+                status = getattr(feed, "status", None)
+                if status and status >= 400:
+                    raise RuntimeError(f"HTTP {status}")
 
-            items.append(
-                {
-                    "title": title,
-                    "url": link,
-                    "source": feed_title,
-                    "published_utc": published.isoformat() if published else None,
-                }
-            )
+                # bozo means the feed had issues (sometimes still usable)
+                if getattr(feed, "bozo", 0):
+                    print(f"Warning: bozo feed for {feed_url}: {feed.bozo_exception}")
+
+                items.extend(feed.entries or [])
+                break  # success, stop retrying
+
+            except (http.client.RemoteDisconnected, URLError, TimeoutError, socket.timeout, RuntimeError) as e:
+                if attempt == 0:
+                    print(f"Retrying RSS ({feed_url}) after error: {e}")
+                    time.sleep(2)
+                    continue
+
+                print(f"Skipping RSS ({feed_url}) after repeated error: {e}")
+                break  # skip this feed, move to next
+
+            except Exception as e:
+                print(f"Skipping RSS ({feed_url}) due to unexpected error: {repr(e)}")
+                break
+
     return items
 
 
